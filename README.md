@@ -44,6 +44,8 @@ INSERT INTO roles (role_name) VALUES ('admin');
 SELECT * FROM roles;
 ```
 
+Create Users Table:
+```
 CREATE TABLE users
 (
 userId SERIAL PRIMARY KEY NOT NULL,
@@ -60,6 +62,10 @@ INSERT INTO users (first_name, last_name, email, password, roleID, date_created,
 VALUES ('Mike', 'Colbert', 'mike@mike.com', 'abc123', 2, current_timestamp, current_timestamp);
 
 SELECT \* FROM users;
+```
+
+
+
 
 CREATE TABLE tasks
 (
