@@ -20,7 +20,7 @@ def add():
     if request.method == 'POST':
         num1 = int(request.form['numOne'])
         num2 = int(request.form['numTwo'])
-        mySum = num1 + num2
+        mySum = num1 - num2
         print(mySum)
     return render_template('loan.html', myValue = mySum)
 

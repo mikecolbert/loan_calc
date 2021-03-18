@@ -1,16 +1,16 @@
 {% extends 'base.html' %} {% block title %} Loan Calculator {% endblock %} {%
 block body %}
 
-<h2>Loan Calculator</h2>
+<h2>Find Difference</h2>
 <form action="/add" method="POST">
 
   <label for="numOne">
-    First Number:
+    Enter you first number:
     <input type="text" id="numOne" name="numOne" required autofocus />
   </label>
 <br><br>
   <label for="numTwo">
-    Second Number: <input type="text" id="numTwo" name="numTwo" required />
+    Enter your second number: <input type="text" id="numTwo" name="numTwo" required />
   </label>
 <br><br>
   <input type="submit" value="Add">
